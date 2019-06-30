@@ -25,6 +25,12 @@ int main(int argc, const char * argv[]) {
         
         
         if ((kyle == winningPoints || nate == winningPoints) && (kyle >= nate + 2 || nate >= kyle + 2) ) {
+            if (kyle >= nate + 2) {
+                NSLog(@"Kyle Wins!");
+            }
+                      else{
+                          NSLog(@"Nate Wins!");
+                      }
             break;
         }
     }
